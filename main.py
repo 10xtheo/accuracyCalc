@@ -4,9 +4,9 @@ N = int(input())
 measurments = []
 print("Введите N измерений, отправляя каждое с помощью ENTER: ")
 for i in range(N):
-    measurments.append(int(input()))
+    measurments.append(float(input()))
 print("Введите цену деления на приборе: ")
-partition= int(input())
+partition= float(input())
 # input section ended
 measurments = sorted(measurments)
 N = len(measurments)
